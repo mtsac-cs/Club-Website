@@ -1,10 +1,15 @@
-# Lists
+#########
+# Lists #
+#########
 
 mylist = [1, 2, 3]              # list of numbers
 mylist = ['string in here', 1, 2, 3, 4, True, 'asdf', [1, 2, 3]]            # we can have a list of multiple types of objects, even other lists
 print(len(mylist))              # len() will tell you the length of a list
 
-# Indexing
+############
+# Indexing #
+############
+
 ## Works just like strings
 
 print(mylist[-1])               # prints last element
@@ -17,7 +22,9 @@ mylist[0] = 'NEW ITEM'
 print("After reassignment: ")
 print(mylist)
 
-# Appending elements
+######################
+# Appending elements #
+######################
 
 mylist.append("NEW ITEM")
 print(mylist)
@@ -32,7 +39,10 @@ print(mylist)
 
 # Removing items from list
 
-## pop() method
+#################
+## pop() method #
+#################
+
 mylist = ['a', 'b', 'c', 'd', 'e']
 item = mylist.pop()
 print(mylist)                   # pop() removes last item and returns it (much like in assembly)

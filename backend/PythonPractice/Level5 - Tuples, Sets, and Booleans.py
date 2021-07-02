@@ -1,13 +1,21 @@
-# Tuples, Sets, and Booleans
+##############################
+# Tuples, Sets, and Booleans #
+##############################
 
 ## Tuples: are immutable sequences kind of like list, except you can't change values from the list
 ## Sets: are unordered collections of unique elements
 ## Booleans: true or false statements
 
-# Booleans
+############
+# Booleans #
+############
+
 ## Booleans are capitalized: True, False
 
-# Tuples
+##########
+# Tuples #
+##########
+
 ## Tuples are made just like you would a list, but you use parantheses instead of brackets:
 
 t = (1, 2, 3)
@@ -18,7 +26,10 @@ print(t)
 ## Again, tuples are like lists, but are immutable
 #t[0] = 'New'   <-   this would not work because you can't reassign values
 
-# Sets
+########
+# Sets #
+########
+
 ## unordered collections of unique elements
 
 x = set()
