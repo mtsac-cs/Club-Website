@@ -1,4 +1,6 @@
 ############## Objected Oriented Programming 3: Inheritance and Special Methods
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
 
 
 # Inheritance: derived classes that inherit from parent (base) classes

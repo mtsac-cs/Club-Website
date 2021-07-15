@@ -2,6 +2,9 @@
 # Tuples, Sets, and Booleans #
 ##############################
 
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
+
 ## Tuples: are immutable sequences kind of like list, except you can't change values from the list
 ## Sets: are unordered collections of unique elements
 ## Booleans: true or false statements

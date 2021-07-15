@@ -1,4 +1,6 @@
 ################ Errors and Exceptions
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
 
 # We can use Try, Except, and Finally keywords to handle situations in the case of an error
 

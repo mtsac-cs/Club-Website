@@ -1,4 +1,6 @@
 # Numbers
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
 
 print(2 + 1)                # addition
 print(2 - 1)                # subtraction

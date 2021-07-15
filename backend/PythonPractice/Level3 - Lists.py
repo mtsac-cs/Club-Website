@@ -2,6 +2,9 @@
 # Lists #
 #########
 
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
+
 mylist = [1, 2, 3]              # list of numbers
 mylist = ['string in here', 1, 2, 3, 4, True, 'asdf', [1, 2, 3]]            # we can have a list of multiple types of objects, even other lists
 print(len(mylist))              # len() will tell you the length of a list
@@ -52,18 +55,25 @@ print(item)                     # this should contain 'e'
 item = mylist.pop(0)
 print(item)                     # this will remove 'a' and return it
 
-# reverse()
+#############
+# reverse() #
+#############
 
 mylist = ['a', 'b', 'c', 'd', 'e']
 mylist.reverse()
 print(mylist)                   # reverses the order of the list
 
-# sort()
+##########
+# sort() #
+##########
+
 mylist = [4, 6, 1, 7, 43, 2]    # sorts the list
 mylist.sort()
 print(mylist)
 
-# nested lists
+################
+# nested lists #
+################
 
 mylist = [1, 2, ['x', 'y', 'z']]
 print(mylist[2][1])             # accessing a list within a list

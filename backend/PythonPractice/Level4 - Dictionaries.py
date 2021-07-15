@@ -2,6 +2,9 @@
 # Dictionaries #
 ################
 
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
+
 ## Basically lists but with key-value pairings
 
 my_stuff = {"key1":"value", 'key2':'value2', 'key3':{'123':[1, 2, 3, 'grabme']}}          # Dictionaries do not retain any sort of order

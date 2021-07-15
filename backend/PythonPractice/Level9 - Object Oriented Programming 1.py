@@ -1,4 +1,6 @@
 ############## Objected Oriented Programming
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
 
 # Note that in the code below, when we add a dot . following mylist, we get a lot of options
 # to manipulate the list

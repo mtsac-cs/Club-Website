@@ -1,4 +1,6 @@
 ################ Regular Expressions
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
 
 # Regular expressions: allow us to search for patterns in Python strings
 # will help us parsing through URLs in Django

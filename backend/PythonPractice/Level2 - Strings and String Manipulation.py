@@ -1,4 +1,6 @@
 # Strings
+########### Notes taken are following the Python and Django Full Stack Web Developer Bootcamp on Udemy.com
+########### URL: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/
 ## Can use single quotes or double quotes
 
 ### Basics
@@ -18,6 +20,7 @@ print(mystring[:3])         # to print everything up until but not including the
 print(mystring[2:5])        # finally, we can select a range from an index up to and not including another index: 'cde'
 print(mystring[:])          # we simply use a single colon to print everything in string array
 print(mystring[::2])        # use two colons followed by a stepsize. for example, 2 would print every other character: 'aceg'
+print(mystring[::-1])       # will return a reversed string by calling a negative stepsize
 
 # Strings are Immutable
 
