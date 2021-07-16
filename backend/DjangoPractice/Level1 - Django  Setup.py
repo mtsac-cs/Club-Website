@@ -46,6 +46,12 @@
 # Creating a virtual environment #
 ##################################
 
+# First, switch your terminal from powershell to cmd.
+# - In Visual Studio Code:
+#   - CTRL + Shift + P
+#   - Select Terminal: Select Default Profile
+#   - Pick CMD
+
 # To use a virtual environment with conda, we use these commands:
 #   conda create --name myEnv django
 # This creates an environemtn called "myEnv" with the latest version of Django
@@ -72,3 +78,20 @@
 # include the name of the package at the end of the venv setup command like so:
 
 #   conda create --name myEnv python=3.9
+
+######################################
+# Find all discoverable environments #
+######################################
+
+# If you forgot the name of your environment, the command:
+#   conda info --envs
+# should help you find it
+
+############################
+# Verify environment works #
+############################
+
+# Type 'python' to get python version with venv
+# Type 'quit()' to exit Django
+# Type 'deactivate' to deactivate virtual environment
+# Type 'python' again, and the version should be the one installed on the pc
