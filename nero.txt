@@ -1,0 +1,6 @@
+django-admin startproject club_website
+python manage.py runserver
+python manage.py startapp <appname>
+python manage.py makemigration
+python manage.py migrate
+python manage.py createsuperuser
