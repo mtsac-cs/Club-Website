@@ -1,4 +1,4 @@
-"""first_project URL Configuration
+"""first_create URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -20,7 +20,5 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('', include('first_app.urls')),
-    #path('', views.index, name='index'),
     path('admin/', admin.site.urls),
 ]
-
