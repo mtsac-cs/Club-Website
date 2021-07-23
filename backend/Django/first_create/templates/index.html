@@ -1,11 +1,13 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
+{% load static %}
 <html>
     <head>
         <meta charset="utf-8">
-        <title>First App</title>
+        <title>Mt Sac CS Club Duck</title>
+        <link rel="stylesheet" href="{% static "css/style.css" %}">
     </head>
     <body>
-        <h1>{{ new_title }}</h1>
-        {{ insert_me }}
+        <h1>Hello this the index.html file!</h1>
+        <img src="{% static "images/this_is_a_duck.jpg" %}" alt="Oh shit, that's not a duck.">
     </body>
 </html>
